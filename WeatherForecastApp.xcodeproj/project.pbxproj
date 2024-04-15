@@ -109,7 +109,6 @@
 		5BD45C3B2BCCEE590062BF61 /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
 		5BD45C3D2BCCEE920062BF61 /* MockCityResponseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCityResponseProvider.swift; sourceTree = "<group>"; };
 		5BD45C3F2BCCF4470062BF61 /* DateFormatterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterManager.swift; sourceTree = "<group>"; };
-		5BD45C422BCCFF1D0062BF61 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		5BD45C432BCD1B2F0062BF61 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		5BD45C452BCD1F8E0062BF61 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		5BD45C492BCD21A30062BF61 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
@@ -214,7 +213,6 @@
 				5B99D0EC2BC955BE00E04216 /* Networking */,
 				5B99D0CF2BC9488A00E04216 /* Preview Content */,
 				5BE604362BCA8AB300313189 /* Resources */,
-				5BD45C412BCCFED60062BF61 /* SecureAPIKeys */,
 				5B99D10A2BC97F5800E04216 /* Utilities */,
 			);
 			path = WeatherForecastApp;
@@ -324,14 +322,6 @@
 				5BD45C3B2BCCEE590062BF61 /* Cities.json */,
 			);
 			path = Mock;
-			sourceTree = "<group>";
-		};
-		5BD45C412BCCFED60062BF61 /* SecureAPIKeys */ = {
-			isa = PBXGroup;
-			children = (
-				5BD45C422BCCFF1D0062BF61 /* Secrets.xcconfig */,
-			);
-			path = SecureAPIKeys;
 			sourceTree = "<group>";
 		};
 		5BE604342BCA8A1700313189 /* WeatherDashboard */ = {
@@ -607,7 +597,6 @@
 		};
 		5B99D0D22BC9488A00E04216 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BD45C422BCCFF1D0062BF61 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -671,7 +660,6 @@
 		};
 		5B99D0D32BC9488A00E04216 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BD45C422BCCFF1D0062BF61 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
