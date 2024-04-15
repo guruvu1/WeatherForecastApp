@@ -51,8 +51,8 @@ class WeatherDashboardViewModel: ObservableObject {
         } else {
             locationHistory?[searchedString] = locationForecast
             AppUserDefaults.locationHistory = locationHistory
-            AppUserDefaults.selectedLocation = searchedString
         }
+        AppUserDefaults.selectedLocation = searchedString
     }
 
     private func loadCities() {

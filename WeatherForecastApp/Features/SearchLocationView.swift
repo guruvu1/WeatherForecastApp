@@ -36,13 +36,14 @@ struct SearchLocationView: View {
                             .foregroundColor(.white)
                     }
                 }
-
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button {
-                        dismiss()
-                    } label: {
-                        Image(systemName: "xmark")
-                            .foregroundStyle(.white)
+                if AppUserDefaults.selectedLocation != nil {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button {
+                            dismiss()
+                        } label: {
+                            Image(systemName: "xmark")
+                                .foregroundStyle(.white)
+                        }
                     }
                 }
             }
